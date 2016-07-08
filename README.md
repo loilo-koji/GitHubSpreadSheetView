@@ -10,6 +10,7 @@ Issueをたくさん登録したい時に便利に使えます。
 2. gssv.gsの内容をコピー＆ペースとなどしてスクリプトに追加します。
 
 3. gssv.gsスクリプト冒頭にご自身のアカウントのGitHub APIのアクセストークンを追加してください。  
+   アクセストークンはここから取得してください https://github.com/settings/tokens  
    var GITHUB_ACCESS_TOKEN = 'aaaabbbbccccddd'
 
 4. スプレッドシートをリロードします。
@@ -30,4 +31,8 @@ Issueをたくさん登録したい時に便利に使えます。
 
 ## Issueの編集
 Issue番号の付いている行のTitleやBodyなどの内容を変更すると自動的にGitHubへと反映されます。
+
+## 参考元
+感謝！
+http://qiita.com/yoshimikeisui/items/277b06c58f50d530e5d1
 
